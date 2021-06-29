@@ -11,11 +11,15 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     padding: 15px 0;
   }
+
+  body {
+    font-family:  'Source Sans Pro', sans-serif; 
+  }
   
   /* Fonts, classes are so I can reuse the styles on a variety of elements */
   .merriweather { font-family: 'Merriweather', serif; }
   .oswald { font-family: 'Oswald', sans-serif; }
-  .lato { font-family: 'Lato', sans-serif; }
+  .source-sans-pro { font-family: 'Source Sans Pro', sans-serif; }
   
   /* Colors */
   /* Dark yellow: #f2ff00 */

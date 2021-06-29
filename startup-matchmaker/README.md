@@ -22,11 +22,14 @@ When you have fulfilled the requirements below, submit a link to your github rep
 
 ## Requirements
 
-1. Open the starter_code in your code editor
-2. Examine the `index.html` file as it contains all the HTML needed for the design
-3. Link the `styles.css` file to the `index.html` file (examine how default.css is being linked)
-3. The `images` directory contains the background image however this image has already been uploaded to cloudinary and the url provided in the css file. 
-4. Use your coding powers to build out the design
+- Open the starter_code in your code editor
+- Examine the `index.html` file as it contains all the HTML needed for the design
+- Import Google Fonts as directed in the `index.html` file
+- Examine the default.css file for references to predefined classes and colors
+- Link the `styles.css` file to the `index.html` file (examine how default.css is being linked)
+- The `images` directory contains the background image however this image has already been uploaded to cloudinary and the url provided in the css file. 
+- Use your coding powers to build out the design
+
 
 ## Plagiarism
 
