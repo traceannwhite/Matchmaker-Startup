@@ -4,7 +4,7 @@
 
 - Fork and clone this repo 
 - Change into the new directory 
-- Go to [Startup Matchmaker](./startup-matchmaker/README.md).
+- Go to [Startup Matchmaker](./startup-matchmaker).
 - When completed submit your repo link via the HW Submission Form pinned to the classroom channel.
 
 ### 2. Read/Watch The Following - EST TIME: 20min
