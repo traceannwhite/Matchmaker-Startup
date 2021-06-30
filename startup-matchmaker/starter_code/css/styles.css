@@ -4,3 +4,174 @@
 
 /* BACKGROUND IMAGE URL */
 /* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
+
+/* ADD YOU CSS BELOW  */
+
+/* APPLIES TO ENTIRE WEBSITE */
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*HEADER AND NAVIGATION */
+#page-header .wrapper {
+  border-bottom: 5px solid #f2ff00;
+  font-size: 10px;
+  font-family: "Merriweather", serif;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+
+h1 a {
+  color: #f2ff00;
+}
+
+nav ul {
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: white;
+}
+
+li:nth-of-type(3) {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: capitalize;
+}
+li:nth-of-type(4) {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: capitalize;
+}
+li:nth-of-type(5) {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: capitalize;
+}
+
+.tagline {
+  background-color: lightgray;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+
+/* Removed from original assignment - but I already completed the information below so I am going to keep it here. */
+del {
+  color: gray;
+}
+ins {
+  text-decoration-color: #f2ff00;
+}
+
+/* SECTION: MEET YOUR MATCH */
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blurb {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  /*Researched opacity, rgba, and color swatches on Google to figure this out. */
+  border: 1px solid grey;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  padding: 30px 30px;
+  margin: 40px;
+}
+
+.blurb a.button {
+  background-color: #f2ff00;
+  width: 100%;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* SECTION: CARDS */
+h3 {
+  font-family: "Merriweather", serif;
+  display: flex;
+  align-items: left;
+}
+
+.touts {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  padding: 1.2rem 1.2rem;
+}
+
+.tout {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.tout:last-of-type {
+  border: none;
+}
+
+.tout a.button {
+  width: 100%;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  background-color: lightgray;
+  border-bottom: 1px solid grey;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* FOOTER INFORMATION */
+footer {
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  padding: 30px 0 0 30px;
+}
